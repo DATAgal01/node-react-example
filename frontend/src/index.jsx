@@ -11,7 +11,7 @@ const baseURL = process.env.ENDPOINT;
 
 const getChats = async () => {
   try {
-    const url = `http://95.216.143.28:8000/api/chats`
+    const url = `http://95.216.143.28:9000/api/chats`
     const response = await fetch(url);
     return response.json()
   } catch (error) {
